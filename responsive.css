@@ -1,0 +1,355 @@
+@media (max-width: 1800px) {}
+
+@media (max-width: 1424px) {}
+
+@media (max-width: 1240px) {
+  .expert-card {
+    width: 28%;
+    height: 95%;
+  }
+
+  .custom-cont {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .cover-expert {
+    gap: 0px;
+  }
+
+  .expert-card {
+    width: 30%;
+    height: 80%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .custom-cont h2 {
+    font-size: 58px;
+    letter-spacing: 2px;
+  }
+
+  custom-cont p {
+    font-size: 16px;
+    margin-top: -4%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .exp-card-cont h4 {
+    font-size: 38px;
+  }
+
+  .exp-card-cont p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width:940px) {
+  .nav-ham {
+    display: flex;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .cover-bg h1 {
+    font-size: 100px;
+    letter-spacing: 2px;
+  }
+
+  .cover-bg h4 {
+    font-size: 14px;
+  }
+
+  .cover-bg button {
+    padding: 18px 30px;
+    font-size: 12px;
+    margin-top: 32px;
+  }
+
+  .ham-navbar {
+    width: 25%;
+  }
+
+  .expert-cont {
+    height: 55vh;
+  }
+
+  .expert-card {
+    height: 80%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 10px 8px 10px;
+    gap: 8px;
+    border: 2px dotted #da4055;
+    border-radius: 12px;
+  }
+
+  .custom-cont h2 {
+    font-size: 56px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+
+}
+
+@media (max-width: 767px) {
+  .cover-bg h1 {
+    font-size: 90px;
+    letter-spacing: 2px;
+  }
+
+  .cover-bg h4 {
+    font-size: 14px;
+  }
+
+  .cover-bg button {
+    padding: 16px 26px;
+    font-size: 12px;
+    margin-top: 28px;
+  }
+
+  .ham-navbar {
+    width: 30%;
+  }
+
+  .cover-expert {
+    padding-top: 40px;
+    height: fit-content;
+    gap: 30px;
+  }
+
+  .expert-cont {
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .expert-head h2 {
+    font-size: 70px;
+  }
+
+  .expert-head p {
+    font-size: 16px;
+  }
+
+  .expert-card {
+    height: 52vh;
+    width: 55%;
+    padding: 10px 14px 10px 14px;
+  }
+
+  .exp-card-cont h4 {
+    font-size: 42px;
+  }
+
+  .exp-card-cont p {
+    font-size: 15px;
+  }
+
+  .blogs {
+    padding: 0px 30px 0px 30px;
+  }
+
+  .blog-head h2 {
+    font-size: 58px;
+  }
+}
+
+@media (max-width: 660px) {
+  .cover-nav {
+    padding-left: 15px;
+    padding-right: 25px;
+  }
+
+  .cover-bg h1 {
+    font-size: 85px;
+    letter-spacing: 2px;
+  }
+
+  .cover-bg h4 {
+    font-size: 14px;
+  }
+
+  .cover-bg button {
+    padding: 16px 26px;
+    font-size: 12px;
+    margin-top: 28px;
+  }
+
+  .ham-navbar {
+    width: 35%;
+  }
+
+  .expert-card {
+    width: 64%;
+  }
+
+  .exp-card-cont h4 {
+    font-size: 44px;
+  }
+
+  .exp-card-cont p {
+    font-size: 16px;
+  }
+
+  .blogs {
+    padding: 0px 15px 0px 15px;
+  }
+}
+
+@media (max-width: 610px) {
+  .cover-bg h1 {
+    font-size: 75px;
+    letter-spacing: 2px;
+  }
+
+  .ham-navbar {
+    width: 40%;
+  }
+
+  .expert-head h2 {
+    font-size: 64px;
+    text-align: center;
+  }
+
+  .expert-head p {
+    font-size: 16px;
+  }
+
+  .blog-head h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .expert-head h2 {
+    font-size: 60px;
+  }
+
+  .expert-head p {
+    font-size: 15px;
+  }
+
+  .custom-cont h2 {
+    font-size: 52px;
+    letter-spacing: 2px;
+  }
+
+  .custom-cont p {
+    font-size: 14px;
+    margin-top: -6%;
+  }
+}
+
+@media (max-width: 530px) {
+  .expert-head h2 {
+    font-size: 54px;
+  }
+
+  .expert-head p {
+    font-size: 15px;
+  }
+
+  .expert-card {
+    width: 80%;
+  }
+
+  .exp-card-cont h4 {
+    font-size: 40px;
+  }
+
+  .exp-card-cont p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .expert-head h2 {
+    font-size: 50px;
+  }
+
+  .expert-head p {
+    font-size: 15px;
+  }
+
+  .expert-card {
+    width: 85%;
+    height: 48vh;
+  }
+
+  .exp-card-cont h4 {
+    font-size: 40px;
+  }
+
+  .exp-card-cont p {
+    font-size: 14px;
+  }
+
+  .custom-cont h2 {
+    font-size: 46px;
+    letter-spacing: 2px;
+  }
+
+  .custom-cont p {
+    font-size: 12px;
+    margin-top: -6%;
+    text-align: center;
+  }
+
+  .blog-head h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .expert-head h2 {
+    font-size: 46px;
+  }
+
+  .expert-head p {
+    font-size: 12px;
+    letter-spacing: 0px;
+  }
+
+  .expert-card {
+    width: 90%;
+    height: 44vh;
+  }
+
+  .exp-card-cont h4 {
+    font-size: 38px;
+  }
+
+  .exp-card-cont p {
+    font-size: 13px;
+  }
+
+  .custom-cont h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+  }
+
+  .custom-cont p {
+    font-size: 12px;
+    margin-top: -6%;
+  }
+
+  .blog-head h2 {
+    font-size: 40px;
+  }
+
+  .blog-cards {
+    height: 80vh;
+    padding: 0px 10px 0px 10px;
+  }
+}
+
+@media (max-width: 380px) {}
